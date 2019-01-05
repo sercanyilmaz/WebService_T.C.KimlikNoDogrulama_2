@@ -1,0 +1,149 @@
+object FrmMain: TFrmMain
+  Left = 0
+  Top = 0
+  Caption = 'T.C. Kimlik Numaras'#305' Do'#287'rula'
+  ClientHeight = 287
+  ClientWidth = 510
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  Visible = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object btnSorgula: TButton
+    Left = 144
+    Top = 207
+    Width = 177
+    Height = 80
+    Caption = 'SORGULA'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -17
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = btnSorgulaClick
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 510
+    Height = 201
+    Align = alTop
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 16
+      Top = 40
+      Width = 110
+      Height = 21
+      Caption = 'T.C. Kimlik No:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 16
+      Top = 75
+      Width = 38
+      Height = 21
+      Caption = #304'sim:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label3: TLabel
+      Left = 16
+      Top = 110
+      Width = 50
+      Height = 21
+      Caption = 'Soyad:'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object Label4: TLabel
+      Left = 16
+      Top = 145
+      Width = 86
+      Height = 21
+      Caption = 'Do'#287'um Y'#305'l'#305':'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+    object editTCKN: TEdit
+      Left = 144
+      Top = 37
+      Width = 201
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      MaxLength = 11
+      ParentFont = False
+      TabOrder = 0
+    end
+    object editIsim: TEdit
+      Left = 144
+      Top = 72
+      Width = 289
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      MaxLength = 80
+      ParentFont = False
+      TabOrder = 1
+    end
+    object editSoyad: TEdit
+      Left = 144
+      Top = 107
+      Width = 289
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      MaxLength = 80
+      ParentFont = False
+      TabOrder = 2
+    end
+    object editDogumYili: TEdit
+      Left = 144
+      Top = 142
+      Width = 89
+      Height = 29
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -17
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      MaxLength = 4
+      ParentFont = False
+      TabOrder = 3
+    end
+  end
+end
